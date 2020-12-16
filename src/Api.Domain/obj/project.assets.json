@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\driko\\.nuget\\packages\\": {}
+    "/home/ans3/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\driko\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\obj\\",
+      "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj",
+      "packagesPath": "/home/ans3/.nuget/packages/",
+      "outputPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\driko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/ans3/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -30,6 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

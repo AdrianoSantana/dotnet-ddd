@@ -6,7 +6,7 @@ namespace Api.Domain.Entities
     public abstract class BaseEntity
     {
         [Key] // Usamos a Data annotation [Key] para informar que a próxima variável sera um id
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } // Guid é um identificador global exclusivo
 
         private DateTime? _createdAt;
         public DateTime? CreatedAt

@@ -1,0 +1,9 @@
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/bin/Debug/netstandard2.0/Service.deps.json
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/bin/Debug/netstandard2.0/Service.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/bin/Debug/netstandard2.0/Service.pdb
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.csprojAssemblyReference.cache
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.AssemblyInfoInputs.cache
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.AssemblyInfo.cs
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.csproj.CoreCompileInputs.cache
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/Debug/netstandard2.0/Service.pdb

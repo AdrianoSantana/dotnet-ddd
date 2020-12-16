@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kWQExni9z33WkF45hG2+HNzrZ+KHzKAjSvDi/BkfhjhRo3jO1jkKpeRnV3mXCgYIs2J/4cQv5zrO0jbv3/V4UA==",
+  "dgSpecHash": "3UZZRLQJT9qqWveASyhkWxHlSyn/6N/K78c2hMpSIg269devbUqJHyBaEW05H56IW44BlbfrKKYBZ/5c555vPg==",
   "success": true,
-  "projectFilePath": "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

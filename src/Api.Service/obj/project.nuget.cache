@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oVboSCsPLS15QymgUnylndbbWEqj/rG86riXE3F5h6xS0Ptmx05aZWKnbyLncX2JguTRbXKY5IdgldOcyJtx/A==",
+  "dgSpecHash": "53hSn/jLHZTH0CEAojggeP0o18sA3Sm/cTiQP8nMjMbMCz0a30p3XDUqt0EBaXbdWcCayQxbjcjDgCyPVFEEwg==",
   "success": true,
-  "projectFilePath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\driko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\driko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/home/ans3/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ans3/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
