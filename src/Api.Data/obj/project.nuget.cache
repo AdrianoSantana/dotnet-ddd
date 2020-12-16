@@ -1,17 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "1mFnmrs3vzoqX1MpjXz+pGOU1/WyFU5dKeqD4LUuV99895jlyjeWl9lg5TdwWGNlmJYRc8CpdS/7ccAEwhiFyg==",
+  "dgSpecHash": "axx0YevaEFfjbmjVsvHxujqiCjmLyPwdAVGQZsBgW225P/4ArtHS3vB8VMjNJxKwB+petsY/jrHy93Xn1pPHaw==",
   "success": true,
   "projectFilePath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj",
   "expectedPackageFiles": [
     "/home/ans3/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/ans3/.nuget/packages/microsoft.data.sqlite.core/3.1.6/microsoft.data.sqlite.core.3.1.6.nupkg.sha512",
+    "/home/ans3/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore/3.1.6/microsoft.entityframeworkcore.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.abstractions/3.1.6/microsoft.entityframeworkcore.abstractions.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.6/microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.design/3.1.6/microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.6/microsoft.entityframeworkcore.relational.3.1.6.nupkg.sha512",
+    "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.sqlite/3.1.6/microsoft.entityframeworkcore.sqlite.3.1.6.nupkg.sha512",
+    "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/3.1.6/microsoft.entityframeworkcore.sqlite.core.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.entityframeworkcore.tools/3.1.6/microsoft.entityframeworkcore.tools.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.6/microsoft.extensions.caching.abstractions.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.caching.memory/3.1.6/microsoft.extensions.caching.memory.3.1.6.nupkg.sha512",
@@ -20,6 +24,7 @@
     "/home/ans3/.nuget/packages/microsoft.extensions.configuration.binder/3.1.6/microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.6/microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.6/microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "/home/ans3/.nuget/packages/microsoft.extensions.dependencymodel/3.1.6/microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.logging/3.1.6/microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.6/microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
     "/home/ans3/.nuget/packages/microsoft.extensions.options/3.1.6/microsoft.extensions.options.3.1.6.nupkg.sha512",
@@ -28,9 +33,15 @@
     "/home/ans3/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
     "/home/ans3/.nuget/packages/pomelo.entityframeworkcore.mysql/3.1.1/pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
     "/home/ans3/.nuget/packages/pomelo.jsonobject/2.2.1/pomelo.jsonobject.2.2.1.nupkg.sha512",
+    "/home/ans3/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.2/sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
+    "/home/ans3/.nuget/packages/sqlitepclraw.core/2.0.2/sqlitepclraw.core.2.0.2.nupkg.sha512",
+    "/home/ans3/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.2/sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
+    "/home/ans3/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.2/sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
     "/home/ans3/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/home/ans3/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "/home/ans3/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "/home/ans3/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/home/ans3/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/ans3/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }
