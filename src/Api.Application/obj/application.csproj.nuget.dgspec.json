@@ -47,6 +47,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -90,7 +96,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj"
+              },
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj"
+              },
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -102,6 +118,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -277,9 +299,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj": {
-                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj"
-              },
               "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj": {
                 "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj"
               },

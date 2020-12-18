@@ -91,3 +91,10 @@ E:/dotnet/dotnet-ddd/src/Api.Application/obj/Debug/netcoreapp3.1/application.gen
 /media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/CrossCutting.pdb
 /media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/Data.pdb
 /media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/obj/Debug/netcoreapp3.1/application.csproj.CopyComplete
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Application/obj/Debug/netcoreapp3.1/application.MvcApplicationPartsAssemblyInfo.cs
