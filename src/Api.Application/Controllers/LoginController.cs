@@ -1,8 +1,10 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
+using Api.Domain.Dtos;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -11,25 +13,36 @@ namespace Api.Application.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+        [AllowAnonymous]
         [HttpPost]
-        public async Task<object> Login([FromBody] UserEntity user, [FromServices] ILoginService service)
+        public async Task<object> Login([FromBody] LoginDto loginDto, [FromServices] ILoginService service)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (user == null)
+            if (loginDto == null)
             {
                 return BadRequest();
             }
 
             try
             {
-                var result = await service.FindByLogin(user);
+                var result = await service.FindByLogin(loginDto);
                 if (result != null)
                 {
-                    return Ok(result);
+                    var autenticado = result.GetType().GetProperty("authenticated").GetValue(result, null);
+
+                    if ((bool)autenticado == false)
+                    {
+                        return StatusCode((int)HttpStatusCode.Unauthorized, result);
+                    }
+                    else
+                    {
+                        return Ok(result);
+                    }
+
                 }
                 else
                 {

@@ -13,6 +13,7 @@ namespace Api.CrossCutting.DependecyInjection
 
             // Scopped --> Ele cria apenas uma única instância que fica vivo em um único ciclo de vida
             serviceCollection.AddTransient<IUserService, UserService>();
+            serviceCollection.AddTransient<ILoginService, LoginService>();
         }
     }
 }

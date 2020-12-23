@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Api.Domain.Dtos.User;
 using Api.Domain.Entities;
 
 namespace Api.Domain.Interfaces.Services.User
@@ -8,13 +9,13 @@ namespace Api.Domain.Interfaces.Services.User
     public interface IUserService
     {
         // Regras de negócio
-        Task<UserEntity> Get(Guid id);
+        Task<UserDto> Get(Guid id);
 
-        Task<IEnumerable<UserEntity>> GetAll();
+        Task<IEnumerable<UserDto>> GetAll();
 
-        Task<UserEntity> Post(UserEntity user);
+        Task<UserDtoCreateResult> Post(UserDto user);
 
-        Task<UserEntity> Put(UserEntity user);
+        Task<UserDtoUpdateResult> Put(UserDto user);
 
         Task<bool> Delete(Guid id);
     }
