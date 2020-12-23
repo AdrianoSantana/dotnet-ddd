@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj": {}
   },
   "projects": {
-    "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\driko\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.CrossCutting\\obj\\",
+        "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/CrossCutting.csproj",
+        "packagesPath": "/home/ans3/.nuget/packages/",
+        "outputPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\driko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ans3/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,15 +24,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj"
               },
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj"
               },
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj"
               }
             }
           }
@@ -45,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -70,21 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj": {
+    "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\driko\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\obj\\",
+        "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj",
+        "packagesPath": "/home/ans3/.nuget/packages/",
+        "outputPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\driko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ans3/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -94,9 +96,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -109,6 +112,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -150,21 +154,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj": {
+    "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\driko\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\obj\\",
+        "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj",
+        "packagesPath": "/home/ans3/.nuget/packages/",
+        "outputPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\driko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ans3/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -174,6 +178,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -185,6 +190,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -206,21 +212,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj": {
+    "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj",
         "projectName": "Service",
-        "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\driko\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Service\\obj\\",
+        "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/Service.csproj",
+        "packagesPath": "/home/ans3/.nuget/packages/",
+        "outputPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\driko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ans3/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -230,12 +236,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Data\\Data.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Data/Data.csproj"
               },
-              "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "E:\\dotnet\\dotnet-ddd\\src\\Api.Domain\\Domain.csproj"
+              "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj": {
+                "projectPath": "/media/ans3/Adriano/dotnet/dotnet-ddd/src/Api.Domain/Domain.csproj"
               }
             }
           }
@@ -248,6 +255,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -273,7 +281,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
