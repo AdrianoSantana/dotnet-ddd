@@ -57,8 +57,8 @@ namespace Api.Service.Test.User
             userDtoUpdateResult = new UserDtoUpdateResult()
             {
                 Id = IdUsuario,
-                Nome = NomeUsuario,
-                Email = EmailUsuario,
+                Nome = NomeUsuarioAlterado,
+                Email = EmailUsuarioAlterado,
                 UpdateAt = DateTime.UtcNow
             };
         }

@@ -57,7 +57,7 @@ namespace Api.Application.Controllers
         }
         //[Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> GetById([FromBody] UserDto user)
+        public async Task<ActionResult> Post([FromBody] UserDto user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState); // 400 -- Solicitação inválida
