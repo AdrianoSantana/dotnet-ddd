@@ -27,7 +27,7 @@ namespace Api.Application.Test.Usuario.QuandoRequisitarCreate
                     Id = Guid.NewGuid(),
                     Nome = nome,
                     Email = email,
-                    CreateAt = DateTime.UtcNow
+                    CreatedAt = DateTime.UtcNow
                 }
             );
 

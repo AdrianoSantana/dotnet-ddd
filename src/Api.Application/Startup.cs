@@ -24,9 +24,11 @@ namespace application
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public IWebHostEnvironment _environment;
+        public Startup(IConfiguration configuration, IWebHostEnvironment environment)
         {
             Configuration = configuration;
+            _environment = environment;
         }
 
         public IConfiguration Configuration { get; }
