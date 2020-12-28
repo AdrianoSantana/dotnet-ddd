@@ -5,10 +5,10 @@ namespace Api.Domain.Entities
 {
     public class UfEntity : BaseEntity
     {
-        [Required()]
+        [Required]
         [MaxLength(2)]
         public string Sigla { get; set; }
-        [Required()]
+        [Required]
         [MaxLength(45)]
         public string Nome { get; set; }
 
